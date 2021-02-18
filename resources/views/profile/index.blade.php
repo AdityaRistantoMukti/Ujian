@@ -58,7 +58,7 @@
                                 @csrf
                                 @method('DELETE')
                               <a href="{{route('profile.edit', $profile->id)}}" class="btn btn-warning btn-sm">Edit</a>
-                              <a href="{{route('profile.detail', $profile->id)}}" class="btn btn-primary btn-sm">Detail</a>
+                              <a href="{{route('profile.detail', $profile->id)}}" class="btn btn-secondary btn-sm">Detail</a>
                               <button class="btn btn-danger btn-sm">Delete</button>
                             </form>
                           </td>
